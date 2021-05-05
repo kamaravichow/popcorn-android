@@ -54,6 +54,8 @@ android {
     compileSdkVersion 22
     buildToolsVersion '22.0.1'
 
+    useLibrary 'org.apache.http.legacy'
+
     packagingOptions {
         exclude 'LICENSE.txt'
         exclude 'META-INF/LICENSE'
